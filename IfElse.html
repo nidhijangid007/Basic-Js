@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        /*The JavaScript if-else statement is used to execute the code whether condition is true or false.
+        There are three forms of if statement in JavaScript.
+
+        1.If statement
+        2.If else statement
+        3.If else if statement
+        4.Nested if else statement*/
+
+
+
+    /*1.IF STATEMENT
+        -It evaluates the content only if expression is true.
+        -If the condition is true then execute the statement.
+        -The  of syntax JavaScript if statement is given below.
+
+        Syntax:-
+        if(Condition){  
+            //content to be evaluated
+            //(Statement)
+        } 
+    EXAMPLE:-
+        let a = 20;  
+        if(a>10){  
+            console.log("value of a is greater than 10");  
+        }  */
+
+
+        
+    /*2.IF ELSE STATEMENT
+        -It evaluates the content whether condition is true of false.
+        -If the condition is true then execute the statement ,
+         otherwise the condition is false then then execute else statement.
+        -The syntax of JavaScript if-else statement is given below.
+
+        Syntax:-
+        if(Condition){  
+            //content to be evaluated if condition is true  
+            //(Statement)
+        }  
+        else{  
+            //content to be evaluated if condition is false  
+            //(Statement)
+        } 
+    EXAMPLE:-
+        let a = 20;  
+        if(a%2 == 0){  
+            console.log("a is even number");  
+        }  
+        else{  
+            console.log("a is odd number");  
+        }  */
+
+
+    
+    /*3.IF ELSE IF STATEMENT         
+        -It evaluates the content only if expression is true from several expressions.
+        -If the condition is true then execute the statement ,
+         otherwise the condition is false then then evaluate condition2 ,
+         if the condition2 is true then execute the statement ,
+         otherwise the condition2 is false then then evaluate condition3 ,
+         if the condition3 is true then execute the statement ,
+         otherwise the condition3 is false then then execute else statement .
+        -The syntax of JavaScript if else if statement is given below.
+
+        Syntax:-
+        if(Condition1){  
+            //content to be evaluated if expression1 is true 
+            (Statement) 
+        }  
+        else if(Condition2){  
+            //content to be evaluated if expression2 is true 
+            (Statement) 
+        }  
+        else if(Condition3){  
+            //content to be evaluated if expression3 is true 
+            (Statement) 
+        }  
+        else{  
+            //content to be evaluated if no expression is true 
+            (Statement) 
+        }
+
+       
+    EXAMPLE:-
+        let age = prompt('Enter your age')
+        if(age < 18 )
+        {
+            alert("MINOR");
+        }
+        else if(age>=18 && age<=40 )
+        {
+            alert("ADULT");
+        }
+        else if(age>40 && age<60 )
+        {
+            alert("SENIOR");
+        }
+        else
+        {
+            alert("SENIOR CITIZEN");
+        }*/
+
+
+    /*4.NESTED IF ELSE STATEMENT
+        -It evaluates the content only if expression is true otherwise execute the false statement.
+        -If the Condition1 is true then execute the statement ,
+         then also execute the Condition2 , if the Condition2 is true then execute the statement ,
+         otherwise the Condition2 is false the else statement.
+         If the Condition1 is false the else statement
+         otherwise the condition is false then then evaluate condition2 .
+        -The  of syntax JavaScript Nested if else statement is given below.
+
+        Syntax:-
+        if (Condition1)
+        {  
+            // code to be executed if condition1 is true   
+                if (Condition2) 
+                {  
+                    // code to be executed if Condition2 is true  
+                } 
+                else 
+                {  
+                    // code to be executed if Condition2 is false 
+                }  
+        } 
+        else 
+        {  
+            // code to be executed if Condition1 is false 
+        }
+
+
+    EXAMPLE:-(Nested if else + if else if)
+        let gender = prompt("Enter the Gender");
+
+        if(gender == "male")
+        {
+           let age = prompt("Enter the Age"); 
+            if(age>21)
+            {
+                alert("Eligable");
+            }  
+            else 
+            {
+                alert("Not Eligable");
+            }
+        }
+
+        else if(gender == "female")
+        {
+            age = prompt("Enter the Age"); 
+            if(age>18)
+            {
+                alert("Eligable");
+            }  
+            else 
+            {
+                alert("Not Eligable");
+            }
+        }
+
+        else 
+        {
+            alert("Not Found");
+        }*/
+ 
+
+
+ </script>
+</body>
+</html>

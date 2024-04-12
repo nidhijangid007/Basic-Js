@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //...............ascending order
+       let add = (arr) => {
+            let temp
+         
+            for(i=0;i<arr.length;i++)
+            {
+                if(arr[i]>arr[i+1])
+                {
+                    temp = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = temp;
+                    i = -1
+
+                }
+            }
+            return arr;
+        }
+        acc = add([8,4,15,20,3,2,5,6,7,9,1,0])
+        console.log(acc);
+
+
+        //.................descending order
+        let sub = (arr) => {
+            let temp
+         
+            for(i=0;i<arr.length;i++)
+            {
+                if(arr[i]<arr[i+1])
+                {
+                    temp = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = temp;
+                    i = -1
+
+                }
+            
+            }
+            return arr;
+            }
+        dec = sub([8,4,15,20,3,2,5,6,7,9,1,0])
+        console.log(dec);
+         
+
+
+
+
+
+        
+
+
+    </script>
+</body>
+</html>
